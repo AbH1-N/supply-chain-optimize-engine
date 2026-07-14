@@ -1,15 +1,20 @@
 # Supply Chain & Inventory Optimization Engine
 
+---
+
 ### Project Overview:
 In fast-paced retail and e-commerce environments, stockouts mean lost revenue, while overstocking bleeds capital. The goal of this project was to transition from historical data reporting to predictive operational intelligence. I built an end-to-end data pipeline to analyze supply chain metrics, automatically calculate safety stock, and dynamically generate product reorder points based on lead times and sales velocity.
 
+---
+
 ### Tools & Technologies Used:
+| Tools | Use |
+|---|---|
+| **Python (Pandas, NumPy)** | Ingested raw warehouse data and engineered custom operational features |
+| **Operations Mathematics** | Programmatically calculated Safety Stock and Reorder Points using standard supply chain formulas (Avg Daily Sales × Lead Time) + Safety Stock |
+| **DAX & Power BI** | Designed a real-time, interactive "Inventory Command Center" for warehouse management to visually track SKU health and prioritize purchasing decisions |
 
-• Python (Pandas, NumPy): Ingested raw warehouse data and engineered custom operational features.
-
-• Operations Mathematics: Programmatically calculated Safety Stock and Reorder Points using standard supply chain formulas (Avg Daily Sales × Lead Time) + Safety Stock.
-
-• DAX & Power BI: Designed a real-time, interactive "Inventory Command Center" for warehouse management to visually track SKU health and prioritize purchasing decisions.
+---
 
 ### Key Business Insights:
 
@@ -18,6 +23,8 @@ In fast-paced retail and e-commerce environments, stockouts mean lost revenue, w
 • Visual Triage: Implemented strict color-coded KPI logic in Power BI, allowing supply chain directors to instantly identify the most critical stock shortages without parsing raw tables.
 
 • Lead Time Profiling: Cross-referenced supplier lead times against category volume to identify potential bottlenecks in the procurement pipeline.
+
+---
 
 ### Repository Contents:
 

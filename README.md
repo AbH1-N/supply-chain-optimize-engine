@@ -1,13 +1,13 @@
 # Supply Chain & Inventory Optimization Engine
 
----
 
-### Project Overview
+
+## Project Overview
 In fast-paced retail and e-commerce environments, stockouts mean lost revenue, while overstocking bleeds capital. The goal of this project was to transition from historical data reporting to predictive operational intelligence. I built an end-to-end data pipeline to analyze supply chain metrics, automatically calculate safety stock, and dynamically generate product reorder points based on lead times and sales velocity.
 
 ---
 
-### Tools & Technologies Used
+## Tools & Technologies Used
 | Tools | Use |
 |---|---|
 | **Python (Pandas, NumPy)** | Ingested raw warehouse data and engineered custom operational features |
@@ -16,17 +16,17 @@ In fast-paced retail and e-commerce environments, stockouts mean lost revenue, w
 
 ---
 
-### Key Business Insights
+## Key Business Insights
 
-• Automated Risk Flagging: Engineered a custom Python function to continuously monitor stock levels against calculated reorder points, automatically tagging SKUs with actionable alerts (e.g., "Out of Stock", "Reorder Immediately").
+- Automated Risk Flagging: Engineered a custom Python function to continuously monitor stock levels against calculated reorder points, automatically tagging SKUs with actionable alerts (e.g., "Out of Stock", "Reorder Immediately").
 
-• Visual Triage: Implemented strict color-coded KPI logic in Power BI, allowing supply chain directors to instantly identify the most critical stock shortages without parsing raw tables.
+- Visual Triage: Implemented strict color-coded KPI logic in Power BI, allowing supply chain directors to instantly identify the most critical stock shortages without parsing raw tables.
 
-• Lead Time Profiling: Cross-referenced supplier lead times against category volume to identify potential bottlenecks in the procurement pipeline.
+- Lead Time Profiling: Cross-referenced supplier lead times against category volume to identify potential bottlenecks in the procurement pipeline.
 
 ---
 
-### Repository Contents
+## Repository Contents
 | Contents | Description |
 |---|---|
 | **supplychainanalysisproj.py** | The Python script containing the supply chain mathematics and feature engineering |

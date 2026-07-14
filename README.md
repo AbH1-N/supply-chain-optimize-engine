@@ -2,12 +2,12 @@
 
 ---
 
-### Project Overview:
+### Project Overview
 In fast-paced retail and e-commerce environments, stockouts mean lost revenue, while overstocking bleeds capital. The goal of this project was to transition from historical data reporting to predictive operational intelligence. I built an end-to-end data pipeline to analyze supply chain metrics, automatically calculate safety stock, and dynamically generate product reorder points based on lead times and sales velocity.
 
 ---
 
-### Tools & Technologies Used:
+### Tools & Technologies Used
 | Tools | Use |
 |---|---|
 | **Python (Pandas, NumPy)** | Ingested raw warehouse data and engineered custom operational features |
@@ -16,7 +16,7 @@ In fast-paced retail and e-commerce environments, stockouts mean lost revenue, w
 
 ---
 
-### Key Business Insights:
+### Key Business Insights
 
 • Automated Risk Flagging: Engineered a custom Python function to continuously monitor stock levels against calculated reorder points, automatically tagging SKUs with actionable alerts (e.g., "Out of Stock", "Reorder Immediately").
 
@@ -26,12 +26,16 @@ In fast-paced retail and e-commerce environments, stockouts mean lost revenue, w
 
 ---
 
-### Repository Contents:
+### Repository Contents
+| Contents | Description |
+|---|---|
+| **supplychainanalysisproj.py** | The Python script containing the supply chain mathematics and feature engineering |
+| **inventory4bi.csv** | The clean, structured dataset exported for the visualization layer |
+| **inventoryoptimizedash.pbix** | The core Power BI dashboard file |
+| **Dashboard** | A high-resolution export of the final interactive dashboard |
 
-• supplychainanalysisproj.py: The Python script containing the supply chain mathematics and feature engineering.
+---
 
-• inventory4bi.csv: The clean, structured dataset exported for the visualization layer.
-
-• inventoryoptimizedash.pbix: The core Power BI dashboard file.
-
-• Screenshot 2026-02-26 143057.png: A high-resolution export of the final interactive dashboard. <img width="1275" height="718" alt="Screenshot 2026-02-26 143057" src="https://github.com/user-attachments/assets/036f9148-03be-46b5-b284-cb7e3017e3d6" />
+| Dashboard |
+|---|
+|  <img width="1275" height="718" alt="Screenshot 2026-02-26 143057" src="https://github.com/user-attachments/assets/036f9148-03be-46b5-b284-cb7e3017e3d6" /> |
